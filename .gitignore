@@ -1,0 +1,12 @@
+
+# Ignore build folders
+./build
+./dist
+./pywfs.egg-info
+
+
+# Ignore pycache
+./pywfs/pywfs/__pycache__
+
+# All temporal files
+*~
