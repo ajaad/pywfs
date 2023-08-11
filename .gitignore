@@ -4,6 +4,7 @@
 ./dist
 ./pywfs.egg-info
 ./deb_dist
+./out
 
 # Ignore pycache
 ./pywfs/pywfs/__pycache__
