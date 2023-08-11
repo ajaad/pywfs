@@ -1,0 +1,9 @@
+README.md
+setup.py
+pywfs/__init__.py
+pywfs/service.py
+pywfs.egg-info/PKG-INFO
+pywfs.egg-info/SOURCES.txt
+pywfs.egg-info/dependency_links.txt
+pywfs.egg-info/requires.txt
+pywfs.egg-info/top_level.txt

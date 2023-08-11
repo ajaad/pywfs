@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pywfs
+Version: 0.0.6
+Summary: Web Feature Service in python
+Author: Anders Johan Konnestad
+Author-email: anders.johan@konnestad.com
+Keywords: WFS
+Description-Content-Type: text/markdown
+
+Web Feature Service (WFS) written in Python3
