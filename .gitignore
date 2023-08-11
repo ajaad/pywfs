@@ -3,10 +3,12 @@
 ./build
 ./dist
 ./pywfs.egg-info
-
+./deb_dist
 
 # Ignore pycache
 ./pywfs/pywfs/__pycache__
+
+*/__pycache__/*
 
 # All temporal files
 *~
