@@ -1,6 +1,8 @@
 # pywfs
 Web Feature Service (WFS) in Python3
 Intended for use on servers that only supports python3 scripts.
+Reverse-engineered from the WFS-features in MapServer.
+There are also som extra features.
 
 ## Objects
 
