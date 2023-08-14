@@ -243,6 +243,12 @@ class Service:
                 self.returnGetFeature()
             elif self.requestDict["request"].lower() == "describefeaturetype":
                 self.returnDescribeFeatureType()
+                
+            elif self.requestDict["request"].lower() == "getxmlinfo":
+                # This is a non-standard request
+                print("Content-type: text/xml; charset=UTF-8\n")
+                print("<h1>Hei</h1>")
+                
             else:
                 print("Content-type: text/html; charset=UTF-8\n")
                 print("Unsuported request: {}".format(self.requestDict["request"]))
@@ -254,9 +260,7 @@ class Service:
         else: # Ingen request
             print("Content-type: text/html; charset=UTF-8\n")
             print("No request! ")
-            
-        
-        
+
         
         if False: # verdier
             print("Content-type: text/html; charset=UTF-8")
