@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 
-VERSION = '0.0.6' # alpha
+VERSION = '1.0.0' # alpha
 DESCRIPTION = 'Web Feature Service in python'
 LONG_DESCRIPTION = 'Web Feature Service (WFS) written in Python3'
 
