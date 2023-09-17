@@ -21,4 +21,9 @@ $ sudo apt install python3-build python3.11-venv
 $ python3 -m build
 ```
 
+## Install python package
+
+```bash
+$ pip install pywfs-1.0.0-py3-none-any.whl
+```
 by Anders Johan Konnestad
