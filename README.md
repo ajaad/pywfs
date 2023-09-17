@@ -9,6 +9,12 @@ There are also som extra features.
 # Service
 The service object creates a wfs-service.
 
+## Install packages for build (Debian)
+
+```bash
+$ sudo apt install python3-build python3.11-venv
+```
+
 ## Build .whl-file
 
 ```bash
